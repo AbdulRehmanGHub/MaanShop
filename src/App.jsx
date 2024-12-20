@@ -7,7 +7,7 @@ import ScrollTop from "./components/scrollTop/ScrollTop";
 import Cart from "./pages/cart/Cart";
 import AllProducts from "./pages/allProducts/AllProducts";
 import Login from "./pages/registration/Login";
-import SignUp from "./pages/registration/SignUp";
+import Signup from "./pages/registration/Signup";
 import UserDashboard from "./pages/user/UserDashboard";
 import AdminDashboard from "./pages/admin/AdminDashboard";
 import AddProduct from "./pages/admin/AddProduct";
@@ -30,7 +30,7 @@ function App() {
             <Route path="/cart" element={<Cart />} />
             <Route path="/allproducts" element={<AllProducts />} />
             <Route path="/login" element={<Login />} />
-            <Route path="/signup" element={<SignUp />} />
+            <Route path="/signup" element={<Signup />} />
 
             <Route path="/category/:categoryname" element={<CategoryPage />} />
 

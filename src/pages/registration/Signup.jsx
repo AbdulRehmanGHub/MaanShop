@@ -9,7 +9,7 @@ import Loader from "../../components/loader/Loader";
 import Navbar from "../../components/navbar/Navbar";
 import Footer from "../../components/footer/Footer";
 
-const SignUp = () => {
+const Signup = () => {
   const context = useContext(myContext);
   const { loading, setLoading } = context;
 
@@ -145,4 +145,4 @@ const SignUp = () => {
   );
 };
 
-export default SignUp;
+export default Signup;
